@@ -1,0 +1,280 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.hero{
+  height: 100vh;
+  width: 100%;
+  background: url('UPNVJ.png');
+  background-size: cover;
+  background-position: center;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-right: 8%;
+  padding-left: 8%;
+}
+
+.logo{
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-left: 1px;
+  margin-right: 40px;
+}
+
+.logo a{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover{
+  color: #E98973 ;
+  transition: .4s ;
+}
+
+.btn{
+  background-color: #E98973;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 10px 25px;
+  border-radius: 35px;
+  float: right;
+  transition: transform .4s;
+  margin-left: 400px;
+}
+
+.btn:hover{
+  transform: scale(1.2);
+}
+
+.login{
+    width: 600px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px;
+    transform: translate(-50%, -50%);
+}
+
+.login h1{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #da7761;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.inputlogin form input:nth-child(1){
+  display: inline-block;
+  width: 80%;
+  padding: 14px 15px 14px 15px;
+  border: 2px solid white;
+  outline: none;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.inputlogin form input:nth-child(3){
+  display: inline-block;
+  width: 80%;
+  padding: 14px 15px 14px 15px;
+  border: 2px solid white;
+  outline: none;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.inputlogin form button {
+    box-shadow: none;
+    border: none;
+    border-radius: 30px; /*untuk bikin buletan disamping */
+    padding: 10px 60px;
+    margin-bottom:10px;
+    vertical-align: middle;
+    line-height: 1.428;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color:#88B2CC;
+    margin-left: 130px;
+}
+
+.inputlogin form button:hover{
+    background-color: transparent;
+    border: 2px solid #88B2CC;
+    cursor: pointer;
+}
+
+.inputlogin a{
+    font-size:20x;
+    margin-top: 10px;
+    color: #da7761;
+    margin-bottom: 15px;
+    margin-left: 150px;
+}
+
+footer{
+  position: relative;
+  width: 100%;
+  height: 330px;
+  background-color: #E98973;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ilombpart{
+  margin-right: 100px;
+}
+
+.ilombpart h3{
+  color: floralwhite ;
+  font-size: 25px;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.ilombpart p{
+  color: white;
+  font-size: 15px;
+  width: 500px;
+  text-align: left;
+  line-height: 26px;
+}
+
+.social{
+  display: flex;
+}
+
+.social a{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #88B2CC;
+  border-radius: 50%;
+  margin: 0px 10px;
+  margin-top: 20px;
+}
+
+.social a:hover{
+  transform: scale(1.2);
+}
+
+.contactupnvj{
+  margin-right: 100px;
+  margin-top: 40px;
+}
+
+.contactupnvj h4{
+  color: #E7D4C0 ;
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.newslatter form{
+  width: 300px;
+  max-width: 100%;
+  position: relative;
+}
+
+.newslatter form input:nth-child(1){
+  display: inline-block;
+  width: 100%;
+  padding: 14px 80px 14px 15px;
+  border: 2px solid white;
+  outline: none;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.newslatter form input:nth-child(3){
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  padding: 14px 80px 14px 15px;
+  border: 2px solid white;
+  outline: none;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.newslatter form input:nth-child(5){
+  position: absolute;
+  display: inline-block;
+  width: 50%;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background-color: #88B2CC;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px #88B2CC, 0px 0px 15px #658EA9;
+  align-items: center;
+  justify-content: center;
+}
+
+.serviceweb{
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+.serviceweb h4{
+  color: #E7D4C0 ;
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  align-items: top;
+  margin-bottom: 40px;
+}
+
+.serviceweb p{
+  color: white ;
+  font-size: 15px;
+  text-align: left;
+  line-height: 26px;
+  margin-bottom: 90px;
+}
+
+.serviceweb p a{
+  color: white;
+  text-decoration: underline;
+  text-transform: capitalize;
+  margin-bottom: 400px;
+}
